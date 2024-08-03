@@ -1,0 +1,39 @@
+-- Top Rated Movies
+-- How many movies were released each year?
+-- Which genre has the highest average IMDb rating?
+-- What is the distribution of movies across different genres?
+-- Which director has the most movies in the dataset?
+-- Which director has the highest average IMDb rating?
+-- How many movies fall under each certificate category (e.g., PG, R, etc.)?
+-- What is the average IMDb rating for each certificate category?
+-- Which actor (star1, star2, star3, star4) appears in the most movies?
+-- Which actor has the highest average IMDb rating across their movies?
+-- Is there a correlation between the number of votes and the IMDb rating? (You can explore this by aggregating and comparing values.)
+-- What is the average runtime of movies in the dataset?
+-- How does runtime affect IMDb rating?
+-- What are the top 10 highest-grossing movies?
+-- Which director's movies have the highest total gross earnings?
+-- What is the distribution of meta scores for movies?
+-- Which movies have a significant difference between IMDb rating and meta score?
+-- How did the number of movies released change across decades?
+-- Which decade has the highest average IMDb rating?
+-- What are the most common genre combinations (e.g., Action/Adventure)?
+-- How do gross earnings vary by year?
+-- What is the distribution of genres within each certificate category?
+-- advance
+-- complex joins and subqeriesL:
+-- Top Directors with High Ratings: Which directors have the highest average IMDb ratings for movies released in the last 10 years, considering only those who have directed at least 5 movies?
+-- window functions
+-- Top Movies by Year: For each year, what are the top 3 movies based on IMDb rating?
+-- Advanced Aggregations and Grouping:
+-- Genre Performance Over Time: How has the average IMDb rating for each genre changed over the decades?
+-- Correlated Subqueries:
+-- Most Successful Actor in a Genre: Who is the actor with the highest average IMDb rating in the 'Drama' genre?
+-- Recursive CTEs:
+-- Career Growth of Actors: How has the average IMDb rating of movies starring a particular actor (e.g., Leonardo DiCaprio) changed over their career?
+-- Analytical Functions:
+-- IMDB Ratings vs. Meta Scores: Compare IMDb ratings and meta scores, finding movies where the difference between the two scores is the greatest.
+-- Advanced Filtering and Conditional Aggregation:
+-- Director-Actor Collaboration: Which director-actor pair has produced the most movies together, and what is their average IMDb rating?
+-- Dynamic SQL and Procedures:
+-- Customizable Report: Create a stored procedure that generates a report of the top N movies by IMDb rating for a given genre and year range.
